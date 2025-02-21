@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.TestCodeSigning</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>TestCodeSigning</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var TestCodeSigning = Class.create();
+TestCodeSigning.prototype = {
+    initialize: function() {
+    },
+
+    type: 'TestCodeSigning'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 07:40:45</sys_created_on>
+        <sys_id>22e42cae83f75210b345c170deaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestCodeSigning</sys_name>
+        <sys_package display_value="CodeSigning2" source="8f44206e83f75210b345c170deaad356">8f44206e83f75210b345c170deaad356</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CodeSigning2">8f44206e83f75210b345c170deaad356</sys_scope>
+        <sys_update_name>sys_script_include_22e42cae83f75210b345c170deaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 07:40:45</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>22e42cae83f75210b345c170deaad35a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 07:40:45</sys_created_on>
+        <sys_id>73f4acae83f75210b345c170deaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 07:40:45</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
